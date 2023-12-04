@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Calibri';
 }
 
 table {
@@ -16,7 +16,7 @@ th {
     background-color: #444444;
     height: 48px;
     border-width: 5px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Calibri';
     font-size: large;
 }
 
@@ -39,7 +39,7 @@ p {
     padding-top: 10px;
     text-align: center;
     font-size: 25px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Calibri';
 }
 
 div#cabecera {
@@ -49,7 +49,7 @@ div#cabecera {
     margin: auto;
     max-width: 809px;
     height: 50px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Calibri';
 }
 
 #imag {
@@ -73,7 +73,7 @@ span#tres {
     vertical-align: bottom;
     text-decoration: underline;
     font-weight: 40;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .profe {
