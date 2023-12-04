@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    margin: auto;
+    padding: 3px;
+    border-width: 5px;
+    border-collapse: collapse;
+    outline-style: outset;
+    outline-color: rgb(172, 172, 172);
+    outline-width: 5px;
+}
+
+th {
+    background-color: #444444;
+    height: 48px;
+    border-width: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+td {
+    width: 130px;
+    border-width: 3px;
+    height: 50px;
+    padding: 6px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: auto;
+    height: min-content;
+    width: 50%;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div#cabecera {
+    color: white;
+    display: grid;
+    grid-template-columns: 20% 40% 40%;
+    margin: auto;
+    max-width: 809px;
+    height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#imag {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+span#uno {  
+    text-align: left; 
+    font-size: 40px;
+}
+
+span#dos { 
+    line-height: 65px;
+    text-align: center;
+}
+
+span#tres { 
+    line-height: 65px;
+    text-align: right;
+    vertical-align: bottom;
+    text-decoration: underline;
+    font-weight: 40;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profe {
+    float: left;
+}
+
+.profe {
+    float: left;
+}
+
+.aula {
+    font-style: italic;
+    float: right;
+    float: right;
+}
+
+.modulo {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.descanso {
+    background-color: cadetblue;
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.hora {
+    background-color: #444444;
+    text-align: center;
+    width: 60px;
+    border-width: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.m04 {
+    background-color: darkblue;
+}
+
+.m06 {
+    background-color: blueviolet;
+}
+
+.m07 {
+    background-color: darkmagenta;
+}
+
+.m08 {
+    background-color: darkred;
+}
+
+.m12 {
+    background-color: brown;
+}
+
+.tut {
+    background-color: red;
+}
