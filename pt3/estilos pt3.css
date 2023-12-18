@@ -14,21 +14,16 @@
 }
 
 input[type="number"][id="altura"] {
-  max: 300;
-  min: 0;
-  value: {{alçada}};
+  value: {alçada};
   background-color: #f0f0f0;
   border: 1px solid #ccc;
   color: #333;
 }
 
 input[type="email"][id="email"] {
-  placeholder: "exemple@exemple.com";
   background-color: #f0f0f0;
   border: 1px solid #ccc;
   color: #333;
 }
 
-label[for="formacio-basica"], label[for="nacionalitat"], label[for="idiomes"] {
-  class: "legenda"
-}
+label[for="formacio-basica"], label[for="nacionalitat"], label[for="idiomes"]
