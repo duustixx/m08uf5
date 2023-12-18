@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <title>Formulari d'inscripció a un joc de rol</title>
+  <style>
+    /* Estilitzem les etiquetes de legend */
+    .legenda {
+      font-style: italic;
+      color: #0000ff;
+    }
+    .legendaNacionalidad {
+      font-style: italic;
+      color: #ff9900;
+    }
+    .legendaIdiomas {
+      font-style: italic;
+      color: #ff0000;
+    }
+    /* Estilitzem el camp de l'alçada */
+    input[type="number"][id="altura"] {
+      max: 300;
+      min: 0;
+      value: {{alçada}};
+    }
+    /* Afegim un patró al camp d'email */
+    input[type="email"][id="email"] {
+      placeholder: "exemple@exemple.com";
+    }
+  </style>
+</head>
+<body>
+  <h1>Formulari d'inscripció a un joc de rol</h1>
+  <form action="enviar_formulari.php" method="post">
+    <div class="form-group">
+      <label for="nom">Nom</label>
+      <input type="text" id="nom" name="nom" required>
+    </div>
+    <div class="form-group">
+      <label for="cognoms">Cognoms</label>
+      <input type="text" id="cognoms" name="cognoms" required>
+    </div>
+    <div class="form-group">
+      <label for="edat">Edat</label>
+      <input type="number" id="edat" name="edat" required>
+    </div>
+    <div class="form-group">
+      <label for="altura">Altura (en cm)</label>
+      <input type="number" id="altura" name="altura" required>
+    </div>
+    <div class="form-group">
+      <label for="sexe">Sexe</label>
+      <input type="radio" id="sexe-home" name="sexe" value="home" required>
+      <label for="sexe-home">Home</label>
+      <input type="radio" id="sexe-dona" name="sexe" value="dona" required>
+      <label for="sexe-dona">Dona</label>
+    </div>
+    <div class="form-group">
+      <label for="formacio-basica">Formació bàsica</label>
+      <select id="formacio-basica" name="formacio-basica" required>
+        <option value="ESO">ESO</option>
+        <option value="GM">GM</option>
+        <option value="GS">GS</option>
+        <option value="Universidad">Universidad</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="nacionalitat">Nacionalitat</label>
+      <input type="text" id="nacionalitat" name="nacionalitat" required>
+    </div>
+    <div class="form-group">
+      <label for="idiomes">Idiomes</label>
+      <input type="text" id="idiomes" name="idiomes" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+      <input type="submit" value="Enviar">
+    </div>
+  </form>
+</body>
+</html>
