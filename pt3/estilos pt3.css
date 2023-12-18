@@ -13,7 +13,6 @@
   color: #ff0000;
 }
 
-/* Estilitzem el camp de l'alçada */
 input[type="number"][id="altura"] {
   max: 300;
   min: 0;
@@ -23,7 +22,6 @@ input[type="number"][id="altura"] {
   color: #333;
 }
 
-/* Afegim un patró al camp d'email */
 input[type="email"][id="email"] {
   placeholder: "exemple@exemple.com";
   background-color: #f0f0f0;
@@ -31,7 +29,6 @@ input[type="email"][id="email"] {
   color: #333;
 }
 
-/* Estilitzem els camps de formació bàsica, nacionalitat i idiomes */
 label[for="formacio-basica"], label[for="nacionalitat"], label[for="idiomes"] {
   class: "legenda"
 }
