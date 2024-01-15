@@ -38,7 +38,7 @@ body {
 .nav {
     width: 20%;
     padding: 20px;
-    background-color: #eee;
+    background-color: rgb(58, 4, 4);
 }
 
 .nav-list {
