@@ -76,13 +76,14 @@ body {
 .aside {
     width: 20%;
     padding: 20px;
-    background-color: #eee;
+    background-color: rgb(41, 4, 4);
 }
 
 .banner {
     width: 100%;
     height: auto;
-    border-radius: 10px;
+    padding: 10%;
+    border-radius: 20px;
 }
 
 .footer {
